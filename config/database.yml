@@ -89,4 +89,4 @@ production:
   <<: *default
   database: saas-project-app_production
   username: saas-project-app
-  password: <%= ENV['SAAS-PROJECT-APP_DATABASE_PASSWORD'] %>
+  password: <%= ENV['SAAS_PROJECT_APP_DATABASE_PASSWORD'] %>
