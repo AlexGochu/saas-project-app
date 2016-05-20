@@ -21,6 +21,7 @@ default: &default
   pool: 5
   username: ubuntu
   password: password
+  port: 5432
 
   #adapter: postgresql
   #encoding: unicode
